@@ -1,0 +1,32 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Temp</th>
+      <th>Wind Speed</th>
+      <th>Wind Direction</th>
+      <th>Pressure</th>
+    </tr>
+  </thead>
+  <body>
+    {{#each station.details}}
+    <tr>
+      <td>
+        {{Code}}
+      </td>
+      <td>
+        {{Temp}}
+      </td>
+      <td>
+        {{Wind}}
+      </td>
+      <td>
+        {{Direction}}
+      </td>
+      <td>
+        {{Pressure}}
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

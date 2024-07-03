@@ -1,0 +1,10 @@
+{
+  "file": "./models/details.json",
+  "details": [
+    {
+      "duration": null,
+      "_id": "e2fbbd15-6700-45b8-8df2-37dc6fef0af8",
+      "stationid": "09750ab2-92c3-4e14-91f2-8662ad415649"
+    }
+  ]
+}

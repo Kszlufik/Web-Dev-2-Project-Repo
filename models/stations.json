@@ -1,0 +1,17 @@
+{
+  "file": "./models/stations.json",
+  "stations": [
+    {
+      "title": "tullaghan",
+      "_id": "09750ab2-92c3-4e14-91f2-8662ad415649"
+    },
+    {
+      "title": "Bundorito",
+      "_id": "48e2a80d-dcb3-4e0f-8803-2a9f0f9bfed0"
+    },
+    {
+      "title": "clane",
+      "_id": "8a40b765-1451-4870-8122-62e0bc05f7d6"
+    }
+  ]
+}
