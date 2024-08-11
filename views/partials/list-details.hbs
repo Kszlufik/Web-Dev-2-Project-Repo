@@ -3,28 +3,34 @@
     <tr>
       <th>Code</th>
       <th>Temp</th>
-      <th>Wind Speed</th>
-      <th>Wind Direction</th>
+      <th>Wind</th>
+      <th>Direction</th>
       <th>Pressure</th>
+      <th></th>
     </tr>
   </thead>
-  <body>
+  <tbody>
     {{#each station.details}}
     <tr>
       <td>
-        {{Code}}
+        {{code}}
       </td>
       <td>
-        {{Temp}}
+        {{temp}}
       </td>
       <td>
-        {{Wind}}
+        {{speed}}
       </td>
       <td>
-        {{Direction}}
+        {{direction}}
       </td>
       <td>
-        {{Pressure}}
+        {{pressure}}
+      </td>
+        <td>
+        <a href="/station/{{../station._id}}/deletedetail/{{_id}}" class="button">
+          {{>icons/delete}}
+        </a>
       </td>
     </tr>
     {{/each}}

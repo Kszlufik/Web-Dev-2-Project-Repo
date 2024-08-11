@@ -2,6 +2,7 @@ import { v4 } from "uuid";
 import { initStore } from "../utils/store-utils.js";
 import { detailStore } from "./detail-store.js";
 
+
 const db = initStore("stations");
 
 export const stationStore = {

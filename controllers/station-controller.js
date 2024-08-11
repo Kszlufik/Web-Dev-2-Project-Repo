@@ -4,6 +4,7 @@ import { detailStore } from "../models/detail-store.js";
 export const stationController = {
   async index(request, response) {
     const station = await stationStore.getStationById(request.params.id);
+    console.log(station);
     const viewData = {
       title: "station",
       station: station,
@@ -21,7 +22,18 @@ export const stationController = {
       pressure: request.body.pressure,
     };
     console.log(`adding Details ${newDetail.title}`);
-    await detailStore.addDetail(station._id, newDetail);
+    await detailStore.addDetails(station._id, newDetail);
     response.redirect("/station/" + station._id);
   },
+
+ 
+  async deleteDetail(request, response) {
+    const stationId = request.params.stationId;
+    const detailId = request.params.detailId;
+    console.log(`Deleting detail ${detailId} from station ${stationId}`);
+    await detailStore.deleteDetail(detailId);
+    response.redirect("/station/" + stationId);
+  },
+ 
 };
+  
