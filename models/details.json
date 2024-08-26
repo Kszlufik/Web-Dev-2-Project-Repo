@@ -47,12 +47,21 @@
     },
     {
       "code": "1738",
-      "temp": "35deg",
-      "speed": "33kmph",
-      "direction": "north",
-      "pressure": "12psi",
-      "_id": "69ae2b50-8ee7-4865-b3a8-e3e2261883d9",
+      "temp": "44deg",
+      "speed": "12psc",
+      "direction": "east",
+      "pressure": "high",
+      "_id": "7cda7e71-af67-4a92-8553-7a6ea6a1d627",
       "stationid": "e5c14fc1-9ba2-4d95-a610-c1cdb0a6365b"
+    },
+    {
+      "code": "123",
+      "temp": "12",
+      "speed": "12",
+      "direction": "12",
+      "pressure": "12",
+      "_id": "f16df00f-d607-46ca-989a-735a69c7d439",
+      "stationid": "26798811-f836-4898-bf62-7b3ded27a1ff"
     }
   ]
 }

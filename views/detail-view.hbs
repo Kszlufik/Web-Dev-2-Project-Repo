@@ -1,0 +1,48 @@
+{{> menu}}
+
+<section class="section">
+  <h1 class="title">Edit Detail</h1>
+
+  <form class="box" action="/station/{{station._id}}/updatedetail/{{detail._id}}" method="POST">
+    <div class="field">
+      <label class="label">Code</label>
+      <div class="control">
+        <input class="input" type="text" name="code" value="{{detail.code}}" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Temperature</label>
+      <div class="control">
+        <input class="input" type="number" name="temp" value="{{detail.temp}}" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Wind Speed</label>
+      <div class="control">
+        <input class="input" type="number" name="speed" value="{{detail.speed}}" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Wind Direction</label>
+      <div class="control">
+        <input class="input" type="text" name="direction" value="{{detail.direction}}" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Pressure</label>
+      <div class="control">
+        <input class="input" type="number" name="pressure" value="{{detail.pressure}}" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="control">
+        <button class="button is-primary" type="submit">Update Detail</button>
+      </div>
+    </div>
+  </form>
+</section>

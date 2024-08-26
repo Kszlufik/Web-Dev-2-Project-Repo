@@ -1,0 +1,47 @@
+{
+  "file": "./models/users.json",
+  "users": [
+    {
+      "firstName": "kamil",
+      "lastName": "szlufik",
+      "email": "ataner31@hotmail.com",
+      "password": "Slimshady11",
+      "_id": "17ddd7e7-0287-4650-995d-9f305dee57e2"
+    },
+    {
+      "firstName": "dan",
+      "lastName": "",
+      "email": "bolan",
+      "password": "123",
+      "_id": "326a09f9-6904-4e82-bb72-743431e84bc2"
+    },
+    {
+      "firstName": "dan",
+      "lastName": "",
+      "email": "eee",
+      "password": "123",
+      "_id": "c8b0748e-082a-43ff-ba01-d87a78be8d6c"
+    },
+    {
+      "firstName": "2",
+      "lastName": "",
+      "email": "123",
+      "password": "123",
+      "_id": "63dcc9af-71c1-416a-81c3-8443e9c02dfc"
+    },
+    {
+      "firstName": "22",
+      "lastName": "",
+      "email": "222",
+      "password": "222",
+      "_id": "a810668c-36d1-4d40-87b4-421cb2b8e657"
+    },
+    {
+      "firstName": "333",
+      "lastName": "",
+      "email": "333",
+      "password": "333",
+      "_id": "f671ac65-51c8-446c-a854-d858380c05eb"
+    }
+  ]
+}

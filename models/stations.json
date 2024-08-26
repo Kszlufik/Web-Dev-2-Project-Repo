@@ -2,8 +2,12 @@
   "file": "./models/stations.json",
   "stations": [
     {
-      "title": "bundoran",
-      "_id": "e5c14fc1-9ba2-4d95-a610-c1cdb0a6365b"
+      "title": "12",
+      "_id": "4d3a5826-af05-4437-a4c5-b32e12bb8b91"
+    },
+    {
+      "title": "123.ie",
+      "_id": "36af0900-5b08-4ed6-aa4e-238ec5e7a6e9"
     }
   ]
 }

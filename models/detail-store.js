@@ -40,12 +40,20 @@ export const detailStore = {
     await db.write();
   },
 
-  async updateDetails(detail, updatedDetail) {
+  async updateDetails(detailId, updatedDetail) {
+    await db.read();
+    const detail = await this.getDetailById(detailId);
+
+    if (!detail) {
+      throw new Error(`Detail with ID ${detailId} not found`);
+    }
+
     detail.code = updatedDetail.code;
     detail.temp = updatedDetail.temp;
     detail.speed = updatedDetail.speed;
     detail.direction = updatedDetail.direction;
     detail.pressure = updatedDetail.pressure;
+
     await db.write();
   },
 };
