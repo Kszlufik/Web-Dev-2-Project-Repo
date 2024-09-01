@@ -1,0 +1,76 @@
+{
+  "file": "./models/details.json",
+  "details": [
+    {
+      "duration": null,
+      "_id": "e2fbbd15-6700-45b8-8df2-37dc6fef0af8",
+      "stationid": "09750ab2-92c3-4e14-91f2-8662ad415649"
+    },
+    {
+      "code": "30",
+      "temp": "22.5",
+      "pressure": "12.2",
+      "_id": "f9412c75-5249-405f-a248-3d2fec966ba1",
+      "stationid": "56a6e42d-d232-45a8-a2ed-5861fd72ec23"
+    },
+    {
+      "code": "333",
+      "temp": "23",
+      "pressure": "122",
+      "_id": "0f1e66cc-72de-4eba-8594-13bc314a7127",
+      "stationid": "f8977be4-1284-4dd6-b546-6b0d934d3a66"
+    },
+    {
+      "code": "888",
+      "temp": "22.5",
+      "pressure": "22psi",
+      "_id": "39157247-0994-4d4c-8281-63cf1681a871",
+      "stationid": "f8977be4-1284-4dd6-b546-6b0d934d3a66"
+    },
+    {
+      "code": "765",
+      "temp": "55",
+      "speed": "23",
+      "direction": "west",
+      "pressure": "33psi",
+      "_id": "2435b0bd-cde0-4410-bfdc-a05752f62ac4",
+      "stationid": "f8977be4-1284-4dd6-b546-6b0d934d3a66"
+    },
+    {
+      "code": "333",
+      "temp": "123",
+      "speed": "22",
+      "direction": "west",
+      "pressure": "33psi",
+      "_id": "e9a801ee-d2c2-4a53-b684-30be70764404",
+      "stationid": "f8977be4-1284-4dd6-b546-6b0d934d3a66"
+    },
+    {
+      "code": "1738",
+      "temp": "44deg",
+      "speed": "12psc",
+      "direction": "east",
+      "pressure": "high",
+      "_id": "7cda7e71-af67-4a92-8553-7a6ea6a1d627",
+      "stationid": "e5c14fc1-9ba2-4d95-a610-c1cdb0a6365b"
+    },
+    {
+      "code": "123",
+      "temp": "12",
+      "speed": "12",
+      "direction": "12",
+      "pressure": "12",
+      "_id": "f16df00f-d607-46ca-989a-735a69c7d439",
+      "stationid": "26798811-f836-4898-bf62-7b3ded27a1ff"
+    },
+    {
+      "code": "111",
+      "temp": 123,
+      "speed": 123,
+      "direction": "123",
+      "pressure": 123,
+      "_id": "825464b5-eaf3-4d53-bbf1-98cf77369bb3",
+      "stationid": "082dbe78-2aaa-4686-9afb-1f5036efddfd"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "file": "./models/stations.json",
+  "stations": [
+    {
+      "title": "12",
+      "_id": "4d3a5826-af05-4437-a4c5-b32e12bb8b91"
+    },
+    {
+      "title": "123.ie",
+      "_id": "36af0900-5b08-4ed6-aa4e-238ec5e7a6e9"
+    },
+    {
+      "title": "rr",
+      "userid": "63dcc9af-71c1-416a-81c3-8443e9c02dfc",
+      "_id": "082dbe78-2aaa-4686-9afb-1f5036efddfd"
+    }
+  ]
+}

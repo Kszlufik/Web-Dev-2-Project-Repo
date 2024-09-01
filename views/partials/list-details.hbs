@@ -1,0 +1,43 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Temp</th>
+      <th>Wind</th>
+      <th>Direction</th>
+      <th>Pressure</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each station.details}}
+    <tr>
+      <td>
+        {{code}}
+      </td>
+      <td>
+        {{temp}}
+      </td>
+      <td>
+        {{speed}}
+      </td>
+      <td>
+        {{direction}}
+      </td>
+      <td>
+        {{pressure}}
+      </td>
+        <td>
+        <a href="/station/{{../station._id}}/deletedetail/{{_id}}" class="button">
+          {{>icons/delete}}
+        </a>
+      </td>
+      <td>
+        <a href="/station/{{../station._id}}/editdetail/{{_id}}" class="button">
+          {{>icons/open}}
+        </a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
