@@ -62,6 +62,7 @@
       "pressure": "12",
       "_id": "f16df00f-d607-46ca-989a-735a69c7d439",
       "stationid": "26798811-f836-4898-bf62-7b3ded27a1ff"
+<<<<<<< HEAD
     },
     {
       "code": "111",
@@ -71,6 +72,8 @@
       "pressure": 123,
       "_id": "825464b5-eaf3-4d53-bbf1-98cf77369bb3",
       "stationid": "082dbe78-2aaa-4686-9afb-1f5036efddfd"
+=======
+>>>>>>> 94b4832334991f581d36e4ae8779c775d5a68488
     }
   ]
 }

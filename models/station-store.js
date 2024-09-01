@@ -40,6 +40,10 @@ export const stationStore = {
 
   async getStationsByUserId(userid) {
     await db.read();
+<<<<<<< HEAD
     return db.data.stations.filter((station) => station.userid === userid); 
+=======
+    return db.data.stations.filter((station) => station.userid === userid);
+>>>>>>> 94b4832334991f581d36e4ae8779c775d5a68488
   },
 };

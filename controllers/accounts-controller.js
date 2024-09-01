@@ -37,7 +37,11 @@ export const accountsController = {
   async authenticate(request, response) {
     const user = await userStore.getUserByEmail(request.body.email);
     if (user) {
+<<<<<<< HEAD
       response.cookie("station", user.email);
+=======
+      response.cookie("view", user.email);
+>>>>>>> 94b4832334991f581d36e4ae8779c775d5a68488
       console.log(`logging in ${user.email}`);
       response.redirect("/dashboard");
     } else {
@@ -46,7 +50,13 @@ export const accountsController = {
   },
 
   async getLoggedInUser(request) {
+<<<<<<< HEAD
     const userEmail = request.cookies.station; 
     return await userStore.getUserByEmail(userEmail);
 },
+=======
+    const userEmail = request.cookies.playlist;
+    return await userStore.getUserByEmail(userEmail);
+  },
+>>>>>>> 94b4832334991f581d36e4ae8779c775d5a68488
 };
